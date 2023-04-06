@@ -1,13 +1,12 @@
 require 'faker'
 
-User.create!(email: "a@a.a", password: "aaaaaaaa")
-
 20.times do
   Character.create!(
     name: Faker::Superhero.name,
     price: rand(20..50),
     description: Faker::Movie.quote,
     category: Faker::Superhero.prefix,
+    address: Faker::Address.full_address,
     user_id: 1
   )
 end

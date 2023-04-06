@@ -1,3 +1,15 @@
+<div class="banner">
+  <div class="d-flex justify-content-center">
+    <div class="spiderman"><%= image_tag "spiderman.png", id: "spiderman" %></div>
+    <div class="banner-text">
+      <h1><strong>No.1<br>Character<br>Rental service<br>Platform</strong></h1>
+      <%# <p></p> %>
+      <%# <a class="btn btn-flat" href="#">Apply now</a> %>
+    </div>
+  </div>
+</div>
+
+
 <div class="container">
   <%= form_with url: characters_path, method: :get, class: "d-flex my-1 search" do %>
     <%= text_field_tag :query,

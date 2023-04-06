@@ -1,6 +1,41 @@
 // Import page-specific CSS files here.
 @import "home";
 
+.banner {
+  background-size: cover;
+  background-position: center;
+  // padding: 240px 0;
+  height: 57vh;
+  background-color: #FDED19;
+}
+
+#spiderman {
+  width: 400px;
+  margin-left: -137px;
+}
+
+.banner-text {
+  padding-left: 154px;
+}
+
+.banner h1 {
+  margin: 0;
+  margin-top: 114px;
+  color: white;
+  font-family: 'Lexend', sans-serif;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
 .search {
   padding-bottom: 20px;
 }
@@ -14,12 +49,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
-//.cards {
-// h2 a {
-// background-color: yellow;
-//  }
-//}
 
 .index-link {
   color: inherit;
