@@ -37,7 +37,7 @@
         <%= simple_form_for([@character, @booking]) do |f| %>
         <div class="form-group py-3">
           <%= f.label :start_date, "From" %>
-          <%= f.input :start_date, class: "form-control", html5: true, label: false %>
+          <%= f.input :start_date, data: {enable_time: true, no_calendar: true, minute_increment: 30}, class: "form-control", html5: true, label: false %>
         </div>
         <div class="form-group pb-4">
           <%= f.label :end_date, "To" %>
