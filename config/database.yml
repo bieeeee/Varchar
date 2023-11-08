@@ -24,6 +24,7 @@ default: &default
 development:
   <<: *default
   database: VarChar_development
+  timezone: UTC
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -84,3 +85,4 @@ production:
   database: VarChar_production
   username: VarChar
   password: <%= ENV["VARCHAR_DATABASE_PASSWORD"] %>
+  timezone: UTC
