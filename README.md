@@ -9,3 +9,6 @@ A marketplace website where users can rent fictional characters created by other
 - Manage your bookings
 
 ## Demo
+
+https://github.com/bieeeee/Varchar/assets/114767772/2879c273-6cb6-4259-a415-165010119fb2
+
