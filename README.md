@@ -1,1 +1,11 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+# Varchar For You
+A marketplace website where users can rent fictional characters created by others or showcase their imaginative creations, enhancing storytelling and special occasions.
+
+## Features
+
+- List and manage your characters
+- Search characters
+- Book other characters
+- Manage your bookings
+
+## Demo
